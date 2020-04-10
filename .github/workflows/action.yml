@@ -2,6 +2,7 @@ on: push
 name: Example Workflow
 jobs:
   launchDarklyCodeReferences:
+    baseUri: "https://sguduru-gonfalon.ngrok.io"
     name: LaunchDarkly Code References
     runs-on: ubuntu-latest
     steps:
