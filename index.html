@@ -25,7 +25,7 @@
       
       function render() {
         var shouldShow = ldclient.variation("enable-lazer-beam", false);
-        var label = (shouldShow ? "Showing lazers" : "Not showing lazers") + " your feature to " + user.key;
+        var label = (shouldShow ? "Showing lazer" : "Not showing lazer") + " your feature to " + user.key;
         div.replaceChild(document.createTextNode(label), div.firstChild);
       }
       
