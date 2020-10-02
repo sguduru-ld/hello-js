@@ -25,7 +25,7 @@
       
       function render() {
         var engage = ldclient.variation("enable-lazer-beam", false);
-        var label = (shouldShow ? "engaging lazer" : "lazer disengaged") + " your feature to " + user.key;
+        var label = (shouldShow ? "engaging lazer" : "lazer disengaged") + " your features to " + user.key;
         div.replaceChild(document.createTextNode(label), div.firstChild);
       }
       
